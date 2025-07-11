@@ -19,12 +19,14 @@
 .log{
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px ;
+    
 }
+
 .nav-title{
        font-weight: bolder;
        font-size: 34px;
        color: #4E47FF;
+       margin: 50px 150px ;
 }
 .nav-button{
     background-color: #4E47FF;
@@ -35,8 +37,9 @@
     width: 130px;
     height: 46px;
     border: none;
+    margin: 50px 150px ;
 }
-nav button:hover{
+button:hover{
       font-weight: bold;
 }
 /*banner styles*/
@@ -57,5 +60,43 @@ nav button:hover{
     width: 170px;
     height: 46px;
     border: none;
-    margin: 0 600px 150px;
+    margin: 35px 600px 150px 600px;
+}
+
+/* action styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-action{
+    /* align-items: center;*/
+    width: 500px;
+    height: 200px;
+    margin: 100px 50px 100px 140px;
+}
+.action-header{
+    font-size: 40px;
+    color: #252432;
+}
+.action-para{
+    font-size: 24px;
+    color: #252432;
+}
+.action-button{
+    background-color: #4E47FF;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 220px;
+    height: 46px;
+    border: none;
+
+}
+.action-image{
+    width: 400px;
+    height: 320px;
+    border-radius: 50px;
+    margin: 100px 150px 100px 50px;
 }
