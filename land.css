@@ -6,7 +6,29 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.inter-fonts{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* nav styles */
 .log{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px ;
+}
+.nav-title{
+       font-weight: bolder;
+       font-size: 34px;
+       color: #4E47FF;
+}
+.nav-button{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 16px;
+    width: 130px;
+    height: 46px;
+    border: none;
 }
