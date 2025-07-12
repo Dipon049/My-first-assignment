@@ -109,7 +109,7 @@ button:hover{
 .user-head{
     font-size: 25px;
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
     color: #252432;
 
 }
@@ -131,4 +131,42 @@ button:hover{
     font-size: 15px;
     color: #000000;
     margin-bottom: 20px;
+}
+/* form styles */
+.feedback{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 70px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.feedback-text{
+    font-size: 90px;
+    width: 500px;
+    padding-left: 50px; 
+    
+}
+.feedback-form{
+    width: 100px;
+    padding-right: 390px;
+}
+form button{
+     background-color: #4E47FF;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 390px;
+    height: 46px;
+    border: none;
+}
+input[type="text"]{
+    width: 380px;
+    height: 50px;
+    margin: 10px 0px;
+}
+textarea{
+    width: 380px;
+    height: 100px;
+    margin: 10px 0px;
 }
