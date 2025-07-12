@@ -136,19 +136,24 @@ button:hover{
 .Reviewer-head{
     text-align: center;
     font-size: 40px;
-    padding-bottom: 10px;
+    padding: 30px;
     color: #252432;
 }
-.customer{
+.customer-header{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
     
+}
+.customer{
+
     padding: 20px;
     border-radius: 12px;
-    color: #FFFFFF;
 }
 .icon-para{
     font-size: 10px;
     color:#8987A1;
-    padding: 5px 0px;
+    padding: 8px 0px;
 }
 
 .avater{
@@ -221,8 +226,8 @@ li a{
 .footer-styles{
     
      display: flex;
-    padding: 15px 560px;
-    gap: 50px;
+    padding: 15px 500px;
+    gap: 40px;
     margin-top: 50px 0px;
     list-style: none;
 
