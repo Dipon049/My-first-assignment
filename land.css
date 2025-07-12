@@ -133,9 +133,14 @@ button:hover{
     margin-bottom: 20px;
 }
 /* reviewer portion */
+.Reviewer-head{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: #252432;
+}
 .customer{
-    width: 360px;
-    height: 240px;
+    
     padding: 20px;
     border-radius: 12px;
     color: #FFFFFF;
@@ -145,9 +150,7 @@ button:hover{
     color:#8987A1;
     padding: 5px 0px;
 }
-.icon-img{
-    
-}
+
 .avater{
     display: flex;
 }
